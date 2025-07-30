@@ -20,7 +20,7 @@ export default function Home() {
       }
       
       for(let i=0; i<length ; i++){
-          let rind=Math.floor(Math.random()*str.length+1);
+          const rind=Math.floor(Math.random()*str.length+1);
           pass+=str.charAt(rind);
       }
 
